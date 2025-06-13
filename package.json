@@ -4,7 +4,7 @@
     "description": "Calculate distance between two physical points",
     "repository": {
     "type": "git",
-    "url": "git+https://github.com/jordan-mace/distance-calc.git"
+    "url": "git+https://github.com/jordan-mace/distance-calculate.git"
     },
     "main": "./dist/cjs/index.js",
     "module": "./dist/esm/index.js",
