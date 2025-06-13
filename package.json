@@ -1,6 +1,6 @@
 {
     "name": "distance-calculate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Calculate distance between two physical points",
     "repository": {
     "type": "git",

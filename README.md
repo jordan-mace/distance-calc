@@ -1,7 +1,7 @@
-# distance-calculator
+# distance-calculate
 
-[![npm version](https://img.shields.io/npm/v/distance-calculator.svg?style=flat-square)](https://www.npmjs.com/package/distance-calculator)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/distance-calculator?style=flat-square)](https://bundlephobia.com/package/distance-calculator)
+[![npm version](https://img.shields.io/npm/v/distance-calculate.svg?style=flat-square)](https://www.npmjs.com/package/distance-calculate)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/distance-calculate?style=flat-square)](https://bundlephobia.com/package/distance-calculate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 A lightweight, zero-dependency library for calculating distances between physical points in 2D or 3D space. Perfect for geometry calculations in physics, gaming, or spatial applications.
@@ -18,11 +18,11 @@ A lightweight, zero-dependency library for calculating distances between physica
 ## Installation
 
 ```bash
-npm install distance-calculator
+npm install distance-calculate
 # or
-yarn add distance-calculator
+yarn add distance-calculate
 # or
-pnpm add distance-calculator
+pnpm add distance-calculate
 ```
 
 ## Usage
@@ -31,10 +31,10 @@ pnpm add distance-calculator
 
 ```javascript
 // ESM
-import { distance } from 'distance-calculator';
+import { distance } from 'distance-calculate';
 
 // CommonJS
-// const { distance } = require('distance-calculator');
+// const { distance } = require('distance-calculate');
 
 // 2D points
 console.log(distance({x: 0, y: 0}, {x: 3, y: 4})); 
@@ -48,7 +48,7 @@ console.log(distance({x: 1, y: 2, z: 3}, {x: 4, y: 6, z: 9}));
 ### TypeScript Support
 
 ```typescript
-import { distance, Point } from 'distance-calculator';
+import { distance, Point } from 'distance-calculate';
 
 const pointA: Point = { x: 10, y: 20 };
 const pointB: Point = { x: 13, y: 24 };
@@ -86,7 +86,7 @@ type Point = {
 ### Calculating Distance in an Array
 
 ```javascript
-import { distance } from 'distance-calculator';
+import { distance } from 'distance-calculate';
 
 const points = [
   {x: 0, y: 0},
@@ -118,8 +118,8 @@ To contribute or build locally:
 
 ```bash
 # Clone repository
-git clone https://github.com/jordan-mace/distance-calc.git
-cd distance-calculator
+git clone https://github.com/jordan-mace/distance-calculate.git
+cd distance-calculate
 
 # Install dependencies
 npm install
